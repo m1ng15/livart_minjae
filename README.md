@@ -26,3 +26,17 @@ font-size:1.25rem; font-weight:500; line-height:1.5; letter-spacing:-0.02em;
 font-size:1.44rem; font-weight:500; letter-spacing:-0.02em;
 ### 쿠폰할인가 52 semibold
 font-size:3.25rem; font-weight:600;
+### 카테고리 16
+letter-spacing:-0.02em;
+### 카테고리 강조 16 semibold
+font-weight:600; letter-spacing:-0.02em;
+### 상품설명 20
+font-size:1.25rem; letter-spacing:-0.02em;
+### 상품 할인 25 bold
+font-size:1.56rem; font-weight:700; letter-spacing:-0.02em;
+### 상품 판매 25 medium
+font-size:1.56rem; font-weight:500; letter-spacing:-0.02em;
+### 링크제목 32 110 semibold
+font-size:2rem; font-weight:600; line-height:1.1;
+### 내용(푸터,링크) 15 130
+font-size:0.94rem; line-height:1.3; letter-spacing:-0.02em;
