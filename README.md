@@ -40,3 +40,35 @@ font-size:1.56rem; font-weight:500; letter-spacing:-0.02em;
 font-size:2rem; font-weight:600; line-height:1.1;
 ### 내용(푸터,링크) 15 130
 font-size:0.94rem; line-height:1.3; letter-spacing:-0.02em;
+### 내용 강조 15 medium
+font-size:0.94rem; font-weight:500; letter-spacing:-0.02em;
+### 내용 강조 18 semibold
+font-size:1.13rem; font-weight:600; letter-spacing:-0.02em;
+### 내용 12 130
+font-size:0.75rem; line-height:1.3; letter-spacing:-0.02em;
+
+## 스프라이트 이미지 좌표
+.bg-icon_1 {
+    width: 36px; height: 36px;
+    background: url('css_sprites.png') -10px -10px;
+}
+.bg-icon_2 {
+    width: 36px; height: 36px;
+    background: url('css_sprites.png') -66px -10px;
+}
+.bg-icon_3 {
+    width: 36px; height: 36px;
+    background: url('css_sprites.png') -122px -10px;
+}
+.bg-icon_4 {
+    width: 36px; height: 36px;
+    background: url('css_sprites.png') -178px -10px;
+}
+.bg-icon_5 {
+    width: 36px; height: 36px;
+    background: url('css_sprites.png') -234px -10px;
+}
+.bg-icon_6 {
+    width: 36px; height: 36px;
+    background: url('css_sprites.png') -290px -10px;
+}
