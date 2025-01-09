@@ -89,7 +89,11 @@ main .bnr_wrap .bnr_container .all_bnr .contents .title .txt > a h1 {font-size:2
 main .bnr_wrap > a {position: absolute; top: 50%; opacity: 20%;} /* 광고 배너 버튼 */
 main .bnr_wrap > a:hover {opacity: 100%;} /* 광고 배너 버튼 */
 /* ===========================================광고 배너 개별선택자 */
-main .bnr_wrap .bnr_container .bnr1 {}
+main .bnr_wrap .bnr_container .bnr1 {    
+    background:url(../images/bnr1.jpg) no-repeat;
+    background-position:center;
+    background-size:cover;
+}
 main .bnr_wrap .bnr_container .bnr1 .contents {}
 main .bnr_wrap .bnr_container .bnr1 .contents .title {}
 main .bnr_wrap .bnr_container .bnr1 .contents .title img {}
@@ -326,7 +330,7 @@ main .best_category .category_wrap .best_wrap .more_btn {
 main .line_bnr_container {margin-bottom: 120px;}
 main .line_bnr_container .line_bnr {}
 main .line_bnr_container .line_bnr a {}
-main .line_bnr_container .line_bnr a img {}
+main .line_bnr_container .line_bnr a img {width: 100%;}
 /* ===========================================5행 매장 방문 및 예약 */
 main .store_reserve {width: 1760px; margin: 0 auto; margin-bottom: 120px;}
 main .store_reserve > .title {width: 100%;}
