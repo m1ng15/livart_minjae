@@ -48,6 +48,10 @@ font-size:1.13rem; font-weight:600; letter-spacing:-0.02em;
 font-size:0.75rem; line-height:1.3; letter-spacing:-0.02em;
 ### 상품명 36 medium
 font-size:2.25rem; letter-spacing:-0.02em; font-weight:500;
+### 상품가격 32 bold
+font-size:2rem; font-weight:700; letter-spacing:-0.02em;
+### 원 27
+font-size:1.69rem; letter-spacing:-0.02em;
 
 ## 스프라이트 이미지 좌표
 .bg-icon_1 {
