@@ -46,6 +46,8 @@ font-size:0.94rem; font-weight:500; letter-spacing:-0.02em;
 font-size:1.13rem; font-weight:600; letter-spacing:-0.02em;
 ### 내용 12 130
 font-size:0.75rem; line-height:1.3; letter-spacing:-0.02em;
+### 상품명 36 medium
+font-size:2.25rem; letter-spacing:-0.02em; font-weight:500;
 
 ## 스프라이트 이미지 좌표
 .bg-icon_1 {
