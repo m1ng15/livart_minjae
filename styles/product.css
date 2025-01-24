@@ -1,0 +1,122 @@
+main {background-color: powderblue;}
+main .product_wrap {width: 1520px; margin: 0 auto; margin-top: 90px;}
+/* ========================카테고리 페이지 경로 */
+main .product_wrap .page_path {
+    background-color: lemonchiffon;
+}
+main .product_wrap .page_path a {}
+/* ==================================상품 메인 */
+main .product_wrap .product_container {
+    background-color: lightskyblue;
+    display: flex; flex-flow: row nowrap; justify-content: space-between;
+}
+/* ==================================상품 메인---이미지&텍스트 공통 선택자 */
+main .product_wrap .product_container .product_img,
+main .product_wrap .product_container .product_txt {width: calc(100% / 2);}
+/* ==================================상품 메인---이미지 설명 */
+main .product_wrap .product_container .product_img {
+    background-color: pink; margin-right: 24px;
+
+}
+main .product_wrap .product_container .product_img .big_img {border-radius: 7px; overflow: hidden; margin-bottom: 15px;}
+main .product_wrap .product_container .product_img .big_img img {width: 100%;}
+main .product_wrap .product_container .product_img .thumb_list {background-color: lightgreen;}
+main .product_wrap .product_container .product_img .thumb_list a {
+    display: inline-block; width: 80px; height: 80px;
+    border-radius: 4px; overflow: hidden;
+    margin-right: 15px;
+}
+main .product_wrap .product_container .product_img .thumb_list a:last-child {margin-right: 0;}
+main .product_wrap .product_container .product_img .thumb_list a img {width: 100%; height: 100%;}
+/* ==================================상품 메인---텍스트 설명 */
+main .product_wrap .product_container .product_txt {
+    background-color: palevioletred;
+}
+main .product_wrap .product_container .product_txt .item_tag {margin-bottom: 30px;}
+main .product_wrap .product_container .product_txt .item_tag > * {
+    display: inline-block; letter-spacing:-0.02em;
+    padding: 7px 15px; border-radius: 6px;
+}
+main .product_wrap .product_container .product_txt .item_tag .brand {border: 1px solid #000; margin-right: 12px;}
+main .product_wrap .product_container .product_txt .item_tag .brand a {}
+main .product_wrap .product_container .product_txt .item_tag .best {background-color: #ED2650;}
+main .product_wrap .product_container .product_txt .item_tag .best a {font-weight: 600; color: #fff;}
+/* ==================================================================Start : 상품 제목 */
+main .product_wrap .product_container .product_txt .item_header {
+    background-color: palegreen;
+}
+main .product_wrap .product_container .product_txt .item_header .item_info {
+    background-color: lemonchiffon;
+}
+main .product_wrap .product_container .product_txt .item_header .item_info .item_name {margin-bottom: 18px;}
+main .product_wrap .product_container .product_txt .item_header .item_info .item_name .name {font-size:2.25rem; letter-spacing:-0.02em; font-weight:500; margin-bottom: 10px;}
+main .product_wrap .product_container .product_txt .item_header .item_info .item_name .code {font-size:0.88rem; letter-spacing:-0.02em; color: #555;}
+main .product_wrap .product_container .product_txt .item_header .item_info .item_name .code a {color: #555; margin-left: 15px;}
+main .product_wrap .product_container .product_txt .item_header .item_info .item_review {}
+main .product_wrap .product_container .product_txt .item_header .item_info .item_review .star {
+    display: inline-block; width: 20px; height: 20px;
+    background: url(../images/star.png) no-repeat;
+    margin-left: -5px;
+}
+main .product_wrap .product_container .product_txt .item_header .item_info .item_review .star:first-child {margin-left: 0;}
+main .product_wrap .product_container .product_txt .item_header .item_info .item_review a {margin-left: 12px; line-height: 20px;}
+main .product_wrap .product_container .product_txt .item_header .item_btn {}
+main .product_wrap .product_container .product_txt .item_header .item_btn > a {
+    display: inline-block; width: 60px; height: 60px;
+    border-radius: 4px; overflow: hidden;
+    border: 1px solid #eee;
+}
+main .product_wrap .product_container .product_txt .item_header .item_btn > a img {width: 100%; height: 100%;}
+main .product_wrap .product_container .product_txt .item_header .item_btn .share_btn {}
+main .product_wrap .product_container .product_txt .item_header .item_btn .share_btn img {}
+main .product_wrap .product_container .product_txt .item_header .item_btn .store_btn {}
+main .product_wrap .product_container .product_txt .item_header .item_btn .store_btn img {}
+/* ==================================================================End : 상품 제목 */
+main .product_wrap .product_container .product_txt .price_and_offers {
+    background-color: peachpuff;
+}
+main .product_wrap .product_container .product_txt .price_and_offers .item_price {}
+main .product_wrap .product_container .product_txt .price_and_offers .item_price p {}
+main .product_wrap .product_container .product_txt .price_and_offers .item_price .original_price {}
+main .product_wrap .product_container .product_txt .price_and_offers .item_price p .discount_rate {}
+main .product_wrap .product_container .product_txt .price_and_offers .item_price p .sale_price {}
+/* ===========================================================================benfit & shipping 공통 선택자 */
+main .product_wrap .product_container .product_txt .price_and_offers .offer_details {}
+main .product_wrap .product_container .product_txt .price_and_offers .offer_details dt {}
+main .product_wrap .product_container .product_txt .price_and_offers .offer_details dd {}
+main .product_wrap .product_container .product_txt .price_and_offers .offer_details .benefit {}
+main .product_wrap .product_container .product_txt .price_and_offers .offer_details .benefit dt {}
+main .product_wrap .product_container .product_txt .price_and_offers .offer_details .benefit dd {}
+main .product_wrap .product_container .product_txt .price_and_offers .offer_details .benefit dd a {}
+main .product_wrap .product_container .product_txt .price_and_offers .offer_details .benefit dd a img {}
+main .product_wrap .product_container .product_txt .price_and_offers .offer_details .shipping {}
+main .product_wrap .product_container .product_txt .price_and_offers .offer_details .shipping dt {}
+main .product_wrap .product_container .product_txt .price_and_offers .offer_details .shipping dd {}
+/* ==================================================================Start : 상품 옵션창 */
+/* ==================================================================상품 옵션 공통 선택자 */
+main .product_wrap .product_container .product_txt .item_option {}
+main .product_wrap .product_container .product_txt .item_option select[name^=item] {}
+main .product_wrap .product_container .product_txt .item_option select[name^=item] option {}
+main .product_wrap .product_container .product_txt .item_option .item_size {}
+main .product_wrap .product_container .product_txt .item_option .item_size option {}
+main .product_wrap .product_container .product_txt .item_option .item_color {}
+main .product_wrap .product_container .product_txt .item_option .item_color option {}
+main .product_wrap .product_container .product_txt .item_option .item_bundle {}
+main .product_wrap .product_container .product_txt .item_option .item_bundle option {}
+/* ==================================================================Start : 상품 금액창 */
+main .product_wrap .product_container .product_txt .item_pay {
+    background-color: lightcoral;
+}
+main .product_wrap .product_container .product_txt .item_pay .pay_info {}
+main .product_wrap .product_container .product_txt .item_pay .pay_info p {}
+main .product_wrap .product_container .product_txt .item_pay .pay_info p .pay_coast {}
+main .product_wrap .product_container .product_txt .item_pay .pay_action {}
+main .product_wrap .product_container .product_txt .item_pay .pay_action .like_btn {}
+main .product_wrap .product_container .product_txt .item_pay .pay_action .like_btn li {}
+main .product_wrap .product_container .product_txt .item_pay .pay_action .like_btn li a {}
+main .product_wrap .product_container .product_txt .item_pay .pay_action .get_btn {}
+main .product_wrap .product_container .product_txt .item_pay .pay_action .get_btn li {}
+main .product_wrap .product_container .product_txt .item_pay .pay_action .get_btn li a {}
+main .product_wrap .product_container .product_txt .item_pay .item_bnr {}
+main .product_wrap .product_container .product_txt .item_pay .item_bnr a {}
+main .product_wrap .product_container .product_txt .item_pay .item_bnr a img {}
